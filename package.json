@@ -1,0 +1,31 @@
+{
+  "name": "now-dplys",
+  "version": "0.0.0",
+  "description": "List your now deployments.",
+  "license": "MIT",
+  "repository": "hemanth/now-dplys",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "now.sh",
+    "deployments",
+    "now"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0",
+    "now-client": "^0.7.0"
+  }
+}
