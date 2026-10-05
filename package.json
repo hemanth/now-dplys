@@ -1,6 +1,6 @@
 {
   "name": "now-dplys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List your now deployments.",
   "license": "MIT",
   "repository": "hemanth/now-dplys",
@@ -25,7 +25,10 @@
     "now"
   ],
   "dependencies": {
-    "meow": "^3.7.0",
-    "now-client": "^0.7.0"
+    "meow": "^14.1.0",
+    "now-client": "^9.0.4"
+  },
+  "scripts": {
+    "test": "node --check index.js"
   }
 }
